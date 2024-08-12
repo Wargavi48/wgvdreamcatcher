@@ -26,8 +26,11 @@ h1 {
 
 .link {
     margin-top: 20px;
-    background-color: #FFF;
     width: 100%;
+}
+
+.img-container img {
+    width: 200px;
 }
 
 a {
@@ -43,4 +46,35 @@ a {
 
 a:hover {
     background-color: #0056b3;
+}
+
+@media only screen and (max-width: 765px) {
+    .container {
+        width: 35vw;
+    }
+
+    a {
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width: 579px) {
+    .container {
+        width: 40vw;
+    }
+
+    .img-container img {
+        width: 200px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+    
+}
+
+@media only screen and (max-width: 435px) {
+    .container {
+        width: 60vw;
+    }
 }
